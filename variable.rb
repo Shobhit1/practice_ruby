@@ -67,11 +67,11 @@ puts "If I add #{age}, #{height}, and #{weight} I get #{age + height + weight}"
 puts "-------- Variables exercise drill --------"
 
 def convert_to_cm(height)
-   return height * 2.54
+   height * 2.54
 end
 
 def convert_to_kg(weight)
-  return weight * 0.453592
+  weight * 0.453592
 end
 
 puts "My stats in metric system"

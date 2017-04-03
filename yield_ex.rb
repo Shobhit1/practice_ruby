@@ -4,7 +4,7 @@ class Person
   end
 
   def do_with_name
-    yield(@name)
+    yield @name
   end  
 end
 
